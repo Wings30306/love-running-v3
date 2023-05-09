@@ -18,7 +18,9 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -49,7 +51,7 @@ header a {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -84,10 +86,10 @@ nav {
 
 /* Main content */
 main {
-        /* Enlarge main element to push footer down*/
-        flex: 1 0 auto;
-        /* Add margin at the top to prevent content from being covered by the header */
-        margin-top: 47px;
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;
 }
 
 /* Hero Image */
@@ -109,8 +111,76 @@ main {
     padding-left: 10px;
 }
 
-#cover-text > h2, #cover-text > h3 {
+#cover-text>h2,
+#cover-text>h3 {
     color: #ffffff;
+}
+
+/* Reasons section 
+#reasons {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#welcome {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#benefits>div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#benefits-image {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+#benefits-physical>div,
+#benefits-mental>div {
+    width: inherit;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px 0 20px;
+}
+
+/* Benefits circular image 
+#circle-container {
+    width: 90vw;
+    max-width: 300px;
+    height: 90vw;
+    max-height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('../images/ethos-center-image.webp') no-repeat top center / cover;
+    height: 100%;
+    border-radius: 50%;
 }
 
 /* Footer */
@@ -130,6 +200,7 @@ main {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -143,7 +214,7 @@ main {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -171,7 +242,7 @@ main {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 }
