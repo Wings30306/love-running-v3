@@ -208,11 +208,8 @@ hr {
     background: url("../images/signup-image.webp");
     background-size: cover;
     background-position: 75%;
-    /* TRIAL */
     padding: 20px 10% 0 10%;
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    flex-grow: 1;
 }
 
 #signup-form {
@@ -243,12 +240,8 @@ hr {
 
 .radio-buttons {
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
 }
 
 .join-button {
@@ -355,17 +348,16 @@ hr {
     }
 
     /* Form */
-    #signup-form {
-        display: flex;
+    #signup {
         background-position: center;
-        height: 900px;
+        position: relative;
     }
 
-    #signup-form form {
-        margin: 150px 10% 0 0;
+    #signup-form {
         max-width: 400px;
         position: absolute;
         left: 10%;
+        top: 150px;
     }
 }
 
