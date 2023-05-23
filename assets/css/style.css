@@ -250,14 +250,14 @@ hr {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #454B1B;
+    background-color: #454b1b;
     color: #fafafa;
     display: block;
 }
 
 .join-button:hover {
     background-color: #fafafa;
-    color: #454B1B;
+    color: #454b1b;
 }
 
 /* Footer */
